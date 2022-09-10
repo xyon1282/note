@@ -1,4 +1,9 @@
 import argparse
+import datetime
+
+date = datetime.datetime
+timestamp = str(date.now())
+
 
 # Accept command line arguments for note title and contents
 parser = argparse.ArgumentParser(description='Process values for note title and contents.')
@@ -14,7 +19,10 @@ args = parser.parse_args()
 
 def note():
     f = open(args.t, "a")
-    f.write("\n" + args.b)
+    f.write("\n" + "\n" + args.b + "\n" + "Time:" + timestamp)
 
 
 note()
+
+
+
