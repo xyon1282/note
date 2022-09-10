@@ -1,5 +1,5 @@
-# note
-note is a command line notetaking program, made using python. Whenever I'm doing research for a project or to learn a new concept, I find a ton of new terms, ideas and resources that I dont't want to forget. I made this program to keep track of them.
+# xynote
+xynote is a command line notetaking program, made using python. Whenever I'm doing research for a project or to learn a new concept, I find a ton of new terms, ideas and resources that I dont't want to forget. I made this program to keep track of them.
 
 ## Usage:
 ---------------------------------------------------------------------------
